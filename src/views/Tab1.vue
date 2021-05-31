@@ -13,6 +13,11 @@
       </ion-header>
     
       <ExploreContainer name="Tab 1 page" />
+      <ion-button vertical="bottom" horizontal="end" @click="$router.push({name: 'inscription'})">
+
+        INSCRIPTION
+
+      </ion-button>
     </ion-content>
   </ion-page>
 </template>

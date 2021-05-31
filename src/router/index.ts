@@ -28,7 +28,12 @@ const routes: Array<RouteRecordRaw> = [
         component: () => import('@/views/Tab3.vue')
       }
     ]
-  }
+  },
+  {
+    path: '/inscription',
+    name: 'inscription',
+    component: () => import('@/views/inscription.vue')
+  },
 ]
 
 const router = createRouter({
